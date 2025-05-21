@@ -2,13 +2,13 @@ import { ImageData } from "./interfaces";
 
 export const IMAGES_DATA: ImageData[] = [
     // Files from your tree output
-    { src: "/resources/brat_gif.webp", alt: "Animated brat gif" },
-    { src: "/resources/IMG_2604.PNG", alt: "Tattoo designs in black and white" },
-    { src: "/resources/IMG_2629.PNG", alt: "Tattoo designs in black and white" },
-    { src: "/resources/IMG_2679.PNG", alt: "3d modeled person with tattoos" },
-    { src: "/resources/IMG_2805.PNG", alt: "3d modeled person surrounded by graphic letters" },
-    { src: "/resources/IMG_2856.PNG", alt: "Two 3d modeled people with tattoos" },
-    { src: "/resources/IMG_2898.PNG", alt: "Artwork featuring graphic text in a chaotic pattern" },
+    { src: "resources/brat_gif.webp", alt: "Animated brat gif" },
+    { src: "resources/IMG_2604.PNG", alt: "Tattoo designs in black and white" },
+    { src: "resources/IMG_2629.PNG", alt: "Tattoo designs in black and white" },
+    { src: "resources/IMG_2679.PNG", alt: "3d modeled person with tattoos" },
+    { src: "resources/IMG_2805.PNG", alt: "3d modeled person surrounded by graphic letters" },
+    { src: "resources/IMG_2856.PNG", alt: "Two 3d modeled people with tattoos" },
+    { src: "resources/IMG_2898.PNG", alt: "Artwork featuring graphic text in a chaotic pattern" },
     { src: "/resources/IMG_2913.PNG", alt: "Two 3d modeled people with tattoos" },
     { src: "/resources/IMG_2954.PNG", alt: "3d modeled person surrounded by floating tattoo designs" },
     { src: "/resources/IMG_2958.PNG", alt: "Tattoo designs in black and white" },
