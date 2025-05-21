@@ -9,23 +9,49 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout code
-        uses: actions/checkout@v2
+        uses: actions/checkout@v4
+        with:
+          submodules: false  # Don't attempt to checkout submodules
       
       - name: Setup Node.js
-        uses: actions/setup-node@v2
+        uses: actions/setup-node@v4
         with:
-          node-version: '16'
+          node-version: '20'
+          cache: 'npm'
+      
+      - name: Debug environment
+        run: |
+          pwd
+          ls -la
+          echo "Node version: $(node -v)"
+          echo "NPM version: $(npm -v)"
       
       - name: Install dependencies
-        run: npm ci
-      
+        run: |
+          # Use --no-fund to avoid funding messages and CI=true to run in CI mode
+          npm ci --no-fund
+        
+      - name: Clean node_modules cache
+        run: |
+          # Remove any problematic cache directories
+          rm -rf node_modules/.cache
+          
+      - name: Check package.json build script
+        run: |
+          echo "Build script from package.json:"
+          grep -A 5 "scripts" package.json
 
       - name: Build website
         run: npm run build
+        
+      - name: List build output
+        run: |
+          echo "Contents of build directory:"
+          ls -la build || echo "Build directory not found!"
       
       - name: Deploy to Neocities
         uses: bcomnes/deploy-to-neocities@v1
         with:
           api_token: ${{ secrets.NEOCITIES_API_TOKEN }}
           cleanup: true
-          dist_dir: build
+          dist_dir: build  # Make sure this matches your build output directory
