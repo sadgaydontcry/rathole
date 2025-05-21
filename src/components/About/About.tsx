@@ -10,16 +10,16 @@ const About: React.FC = () => {
       <h2
         className="text-center mb-8 font-bold mt-5"
         style={{
-          fontSize: "50px",
-          color: "gold",
-          textShadow: "3px 3px 0 #000, 6px 6px 0 #FF8C00, 9px 9px 0 #000",
+          fontSize: "25px",
+          color: "white",
+          textShadow: "3px 3px 0 #020, 6px 6px 0rgb(19, 13, 6), 9px 9px 0 #000",
         }}
       >
-        彩礼88W
+      I no longer fear my monsters
       </h2>
       <div className="max-w-3xl px-10 mx-auto text-center text-white">
-        <p>hahahahaha</p>
-        <p>this is me sadgay</p>
+        <p>Bussiness sadgay007@gmail.com</p>
+        <p> ">"3 </p>
         <img
           src={`${process.env.PUBLIC_URL}/resources/brat_gif.webp`}
           alt="Brat GIF"
