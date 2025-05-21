@@ -18,8 +18,29 @@ const About: React.FC = () => {
       I no longer fear my monsters
       </h2>
       <div className="max-w-3xl px-10 mx-auto text-center text-white">
-        <p>Bussiness sadgay007@gmail.com</p>
+        <p>HI! I am happy to hear that you are considering getting a tattoo from me!
+As I am studying PhD in Electronic Engineering, I only work on Fri & Sat.
+My arts are about dreams, technology, tasty food, roadside scenery, artificial intelligence unknown civilizations, aliens, and some weird craps played on the Oscilloscope</p>
         <p> ">"3 </p>
+        <p>There are a few details that I require from all potential customers.</p>
+        <p> - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - </p>
+<ul>
+  <li>Tattoo Idea Description / Specific flash pic</li>
+  <li>Tattoo Placement</li>
+  <li>Ref images</li>
+  <li>Available time</li>
+  <li>Additional Information</li>
+  <li><b>Budget</b></li>
+</ul>
+<p> - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - </p>
+
+<p>it's always good for me to know if it's your first tattoo so I know to reserve more time to talk about the after care.</p>
+<ul>
+  <li>Payment: Cash / Swish / Paypal</li>
+  <li>Deposit: 500sek / 50$ / 50euro</li>
+</ul>
+<p>Cheers</p>
+<p>复仇服务: sadgay007@gmail.com</p>
         <img
           src={`${process.env.PUBLIC_URL}/resources/brat_gif.webp`}
           alt="Brat GIF"
