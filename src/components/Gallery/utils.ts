@@ -69,7 +69,7 @@ export const generateValidPosition = (
 
     while (!isValid) {
         newImage = generateRandomPosition(containerWidth);
-        const currentImage = newImage; // Create a local copy
+        const currentImage = newImage; // Create a local copy test
         isValid = existingImages.every(
             (existingImage) => !isOverlapping(existingImage, currentImage, containerWidth)
         );
