@@ -37,7 +37,7 @@ My arts are about dreams, technology, tasty food, roadside scenery, artificial i
 <p>it's always good for me to know if it's your first tattoo so I know to reserve more time to talk about the after care.</p>
 <ul>
   <li>Payment: Cash / Swish / Paypal</li>
-  <li>Deposit: 500sek / 50$ / 50euro</li>
+  <li>Deposit: 500sek / 50$ / 50 Euro /50 GBP/ 500 RMB</li>
 </ul>
 <p>Cheers</p>
 <p>复仇服务: sadgay007@gmail.com</p>
