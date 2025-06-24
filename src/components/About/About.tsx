@@ -15,7 +15,7 @@ const About: React.FC = () => {
           textShadow: "3px 3px 0 #020, 6px 6px 0rgb(19, 13, 6), 9px 9px 0 #000",
         }}
       >
-      I no longer fear my monsters
+      Human Skin is My canvas
       </h2>
       <div className="max-w-3xl px-10 mx-auto text-center text-white">
         <p>HI! I am happy to hear that you are considering getting a tattoo from me!
