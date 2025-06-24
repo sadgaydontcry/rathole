@@ -2,7 +2,7 @@ import { ImageData } from "./interfaces";
 
 export const IMAGES_DATA: ImageData[] = [
     // Files from your tree output
-    { src: "resources/brat_gif.webp", alt: "Animated brat gif" },
+    // { src: "resources/brat_gif.webp", alt: "Animated brat gif" },
     { src: "resources/IMG_2604.PNG", alt: "Tattoo designs in black and white" },
     { src: "resources/IMG_2629.PNG", alt: "Tattoo designs in black and white" },
     { src: "resources/IMG_2679.PNG", alt: "3d modeled person with tattoos" },
