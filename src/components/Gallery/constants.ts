@@ -30,9 +30,9 @@ export const IMAGES_DATA: ImageData[] = [
     { src: "resources/IMG_5027_2.PNG", alt: "Digital artwork" },
     { src: "resources/IMG_5063.PNG", alt: "Digital artwork" },
     { src: "resources/Untitled_Artwork_1.PNG", alt: "Digital artwork" },
-    { src: "resources/Untitled_Artwork_2.PNG", alt: "Digital artwork" },
-    { src: "resources/main_background.jpg", alt: "Main background image" },
-    { src: "resources/profile_ash.jpg", alt: "Profile picture", about: "Me!:D" }
+    { src: "resources/Untitled_Artwork_2.PNG", alt: "Digital artwork" }
+    // { src: "resources/main_background.jpg", alt: "Main background image" },
+    // { src: "resources/profile_ash.jpg", alt: "Profile picture", about: "Me!:D" }
 ];
   
 // Debounce delay of 200ms
