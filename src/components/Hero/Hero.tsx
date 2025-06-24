@@ -13,7 +13,7 @@ const Hero: React.FC = () => {
             color: "white",
             textShadow: "3px 3px 0 #000, 6px 6px 0 #FF8C00, 9px 9px 0 #000",
           }}
-        > Welcome to RATHOLE U f.3king RATS</h1>
+        > Human Skin is my canvas</h1>
         {/* <h1 className="text-5xl font-bold mb-4"> rathole</h1> */}
         {/* <p className="text-lg">about text</p> */}
     </section>
