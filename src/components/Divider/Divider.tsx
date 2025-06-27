@@ -11,42 +11,26 @@ const Divider: React.FC = () => {
         <img
           src={`${process.env.PUBLIC_URL}/resources/IMG_3855.png`}
           alt="Profile"
-          className="rounded-full w-32 h-32 border-4 border-white animate-spin-slow shadow-lg"
+          className="rounded-full w-42 h-32 border-1 border-white animate-spin-slow shadow-lg"
         />
         
         {/* Windows Vista Style Button */}
         <button
           onClick={() => setShowWishlists(!showWishlists)}
-          className="mt-8 px-8 py-3 text-sm font-normal"
+          className="mt-80 px-8 py-3 text-sm font-normal"
           style={{
             background: showWishlists 
-              ? 'linear-gradient(to bottom, #ffcdd2 0%, #f8bbd9 100%)' 
-              : 'linear-gradient(to bottom, #7db9e8 0%, #1e5799 100%)',
-            border: '1px solid #4a90c2',
-            borderRadius: '6px',
-            color: showWishlists ? '#d32f2f' : 'white',
-            boxShadow: '0 2px 4px rgba(0,0,0,0.2)',
+              ? 'linear-gradient(to bottom, rgb(0, 0, 0) 0%, rgb(255, 217, 236) 100%)' 
+              : 'linear-gradient(to bottom, rgb(255, 217, 236) 0%, rgb(0, 0, 0) 100%)',
+            border: '1px solid rgb(243, 243, 243)',  // Fixed spacing
+            borderRadius: '3px',
+            color: showWishlists ? 'rgb(255, 217, 236)' : 'white',  // Updated text color
+            boxShadow: '0 1px 4px rgba(0,0,0,0.2)',
             minWidth: '200px',
             transition: 'all 0.3s ease'
           }}
-          onMouseOver={(e) => {
-            const target = e.target as HTMLButtonElement;  // Fix TypeScript error
-            if (showWishlists) {
-              target.style.background = 'linear-gradient(to bottom, #ffb3ba 0%, #f48fb1 100%)';
-            } else {
-              target.style.background = 'linear-gradient(to bottom, #85c1ed 0%, #2660a4 100%)';
-            }
-          }}
-          onMouseOut={(e) => {
-            const target = e.target as HTMLButtonElement;  // Fix TypeScript error
-            if (showWishlists) {
-              target.style.background = 'linear-gradient(to bottom, #ffcdd2 0%, #f8bbd9 100%)';
-            } else {
-              target.style.background = 'linear-gradient(to bottom, #7db9e8 0%, #1e5799 100%)';
-            }
-          }}
         >
-          {showWishlists ? '✖️ Hide Voting Panel' : '🗳️ Open Voting Panel'}
+          {showWishlists ? 'Hide Voting Panel' : '🗳️ Wishlists Voting'}
         </button>
       </div>
 

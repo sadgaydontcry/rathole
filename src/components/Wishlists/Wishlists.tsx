@@ -22,39 +22,21 @@ const Wishlists: React.FC = () => {
 
   return (
     <div className="mb-36">
-      <h2
-        className="text-center mb-8 font-bold mt-5"
-        style={{
-          fontSize: "25px",
-          color: "white",
-          fontFamily: "Bitcount Grid Double",
-          textShadow: "3px 3px 0 #020, 6px 6px 0rgb(19, 13, 6), 9px 9px 0 #000",
-        }}
-      >
-        Vote for my trip
-      </h2>
+
 
       <div className="max-w-2xl mx-auto px-6 font-mono">
         <div className="bg-black border-2 border-white p-6 mb-4 text-white font-mono text-sm leading-relaxed">
           <p className="mb-4">
             &gt; Help me decide where to go for my next tattoo adventure!
           </p>
-          <p className="mb-6">
-            &gt; I want to explore new cultures, meet amazing artists, and get inspired by different traditions.
-          </p>
 
           <p className="text-center text-pink-200">※(ﾟωﾟ*)ﾉ VOTE NOW ヽ(*ﾟωﾟ*)ﾉ※</p>
           
           <div className="border border-white p-4 mb-4 bg-gray-900">
-            <p className="text-center text-pink-200 mb-2 font-bold">
-              🗳️ TATTOO TRIP VOTING
-            </p>
+
             
             <div className="space-y-4">
               <div>
-                <label className="block text-pink-200 text-sm font-bold mb-2">
-                  Vote for my next tattoo trip destination:
-                </label>
                 <select
                   value={selectedCountry}
                   onChange={(e) => setSelectedCountry(e.target.value)}
