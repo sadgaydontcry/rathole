@@ -40,7 +40,7 @@ const Header: React.FC = () => {
             duration={500}
             className="cursor-pointer block text-right py-2"
           >
-            Enter this heart           
+            Enter test         
           </Link>
         </div>
       </div>
