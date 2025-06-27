@@ -4,9 +4,9 @@ const Divider: React.FC = () => {
   return (
     <section id="divider" className="flex justify-center my-96">
       <img
-        src={`${process.env.PUBLIC_URL}/resources/profile_ash.jpg`}
+        src={`${process.env.PUBLIC_URL}/resources/IMG_3855.png`}
         alt="Profile"
-        className="rounded-full w-24 h-24 border-4 border-white animate-spin-slow"
+        className="rounded-full w-30 h-24 border-1 border-white animate-spin-slow"
       />
     </section>
   );
