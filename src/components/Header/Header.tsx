@@ -3,54 +3,53 @@ import { Link } from "react-scroll";
 
 const Header: React.FC = () => {
   return (
-    <header className="fixed top-2 inset-x-4 pt-4 bg-white text-black border border-black z-50">
-      <nav className="grid grid-rows-2 sm:flex sm:justify-between sm:items-center">
-        <div className="text-center font-bold text-2xl border-b border-black pb-2 sm:pb-0 sm:-translate-y-1.5 sm:border-b-0 sm:pl-4">
-          RATHOLE
-        </div>
-        <ul className="text-center justify-center pt-2 flex space-x-20 sm:pt-0 sm:pb-3 sm:space-x-10 sm:pr-10">
-          <li>
-            <Link
-              activeClass="active"
-              to="home"
-              spy={true}
-              smooth={true}
-              offset={-70}
-              duration={500}
-              className="hover:blur cursor-pointer"
-            >
-              home
-            </Link>
-          </li>
-          <li>
-            <Link
-              activeClass="active"
-              to="work"
-              spy={true}
-              smooth={true}
-              offset={-70}
-              duration={500}
-              className="hover:blur cursor-pointer"
-            >
-              work
-            </Link>
-          </li>
-          <li>
-            <Link
-              activeClass="active"
-              to="about"
-              spy={true}
-              smooth={true}
-              offset={-70}
-              duration={500}
-              className="hover:blur cursor-pointer"
-            >
-              about
-            </Link>
-          </li>
-        </ul>
-      </nav>
-    </header>
+  <header className="fixed top-3 right-3 pt-3 text-pink-200 z-50 max-w-md">
+  {/* Title */}
+
+  
+  {/* Vertical Navigation */}
+  <div className="flex flex-col space-y-3"> 
+    <div>
+      <Link
+        to="about"
+        spy={true}
+        smooth={true}
+        offset={-70}
+        duration={500}
+        className="cursor-pointer block text-right py-2"
+      >
+        Book a Tattoo
+      </Link>
+    </div>
+    
+    <div>
+      <Link
+        to="work"
+        spy={true}
+        smooth={true}
+        offset={-70}
+        duration={500}
+        className="cursor-pointer block text-right py-2"
+      >
+        Visions
+      </Link>
+    </div>
+    
+    <div>
+      <Link
+        to="my_heart"
+        spy={true}
+        smooth={true}
+        offset={-70}
+        duration={500}
+        className="cursor-pointer block text-right py-2"
+      >
+        Enter my heart
+      </Link>
+    </div>
+  </div>
+</header>
+    
   );
 };
 
