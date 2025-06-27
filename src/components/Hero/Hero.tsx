@@ -1,13 +1,20 @@
-import React from 'react';
+import React, { useState } from 'react';
+
 
 const Hero: React.FC = () => {
-  return (
-<section
-  id="my_heart"
-  className="h-screen bg-cover bg-center flex items-center justify-center"
->
+  const [activeComponent, setActiveComponent] = useState<string | null>(null);
 
-</section>
+  const handleIconClick = (component: string) => {
+    setActiveComponent(activeComponent === component ? null : component);
+  };
+
+  return (
+    <section
+      id="hero"
+      className="min-h-screen bg-cover bg-center flex items-center justify-center py-20"
+    >
+
+    </section>
   );
 };
 

@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from "react";
 import { Footer, About, Gallery, Header, Hero, Divider } from "./components";
+import AdminLogin from "./components/AdminLogin/AdminLogin";  // Add this import
 
 const App: React.FC = () => {
   const [bgOpacity, setBgOpacity] = useState(0);
@@ -7,8 +8,8 @@ const App: React.FC = () => {
   useEffect(() => {
     const handleScroll = () => {
       const scrollY = window.scrollY;
-      const fadeInPoint = 200; // Point at which the fade effect starts
-      const maxScroll = 800; // Point where the fade effect reaches full opacity
+      const fadeInPoint = 200;
+      const maxScroll = 800;
 
       let opacity = 0;
       if (scrollY > fadeInPoint) {
@@ -40,14 +41,13 @@ const App: React.FC = () => {
       <div className="relative z-10">
         <Header />
         <main className="mt-18">
-          {" "}
-          {/* Adjust margin-top to account for fixed header height */}
           <Hero />
           <Gallery />
           <Divider />
           <About />
+          <AdminLogin />          {/* Add this line */}
         </main>
-          <Footer />
+        <Footer />
       </div>
     </div>
   );
