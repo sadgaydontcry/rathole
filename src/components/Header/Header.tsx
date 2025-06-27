@@ -30,17 +30,30 @@ const Header: React.FC = () => {
             Visions
           </Link>
         </div>
-        
+
         <div>
           <Link
-            to="admin_ash"              // Changed from "my_heart" to "admin"
+            to="divider"              // Changed from "wishlists" to "divider"
             spy={true}
             smooth={true}
             offset={-70}
             duration={500}
             className="cursor-pointer block text-right py-2"
           >
-            Enter test         
+            Wishlists
+          </Link>
+        </div>
+        
+        <div>
+          <Link
+            to="admin_ash"
+            spy={true}
+            smooth={true}
+            offset={-70}
+            duration={500}
+            className="cursor-pointer block text-right py-2"
+          >
+            AdminLogin
           </Link>
         </div>
       </div>

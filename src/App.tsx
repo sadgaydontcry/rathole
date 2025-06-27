@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
-import { Footer, About, Gallery, Header , Divider } from "./components";
-import AdminLogin from "./components/AdminLogin/AdminLogin";  // Add this import
+import { Footer, About, Gallery, Header, Divider } from "./components";
+import AdminLogin from "./components/AdminLogin/AdminLogin";
 
 const App: React.FC = () => {
   const [bgOpacity, setBgOpacity] = useState(0);
@@ -41,11 +41,10 @@ const App: React.FC = () => {
       <div className="relative z-10">
         <Header />
         <main className="mt-18">
-
-          <Gallery />
-          <Divider />
+          <Divider />           {/* MOVED TO FIRST - This loads first now */}
+          <Gallery />           {/* Moved to second */}
           <About />
-          <AdminLogin />          {/* Add this line */}
+          <AdminLogin />
         </main>
         <Footer />
       </div>
