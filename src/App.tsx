@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import { Footer, About, Gallery, Header, Hero, Divider } from "./components";
+import { Footer, About, Gallery, Header , Divider } from "./components";
 import AdminLogin from "./components/AdminLogin/AdminLogin";  // Add this import
 
 const App: React.FC = () => {
@@ -41,7 +41,7 @@ const App: React.FC = () => {
       <div className="relative z-10">
         <Header />
         <main className="mt-18">
-          <Hero />
+
           <Gallery />
           <Divider />
           <About />
