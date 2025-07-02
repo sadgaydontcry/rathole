@@ -71,8 +71,9 @@ className="mb-36"
     <p className="text-pink-200">
       &gt; 复仇服务: 
       <a href="mailto:sadgay007@gmail.com" className="underline hover:text-white">
-        sadgay007@gmail.com / dm 
+        sadgay007@gmail.com
       </a>
+      / dm 
     </p>
   </div>
 
