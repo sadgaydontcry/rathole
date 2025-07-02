@@ -64,7 +64,7 @@ className="mb-36"
 </div>
 
     <p className="mb-4">
-      &gt; As I am studying PhD in Electronic Engineering, I only work on weekends, and/or discuss a suitable time with me plz...
+      &gt; As I am studying PhD in electronics, I only work on weekends, and/or discuss a suitable time with me plz...
     </p>
 
     <p className="mb-2">&gt; Cheers</p>
