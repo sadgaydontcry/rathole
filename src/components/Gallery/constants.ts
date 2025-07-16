@@ -33,9 +33,9 @@ export const IMAGES_DATA: ImageData[] = [
     { src: "resources/IMG_4161.JPG", alt: "Digital artwork" },
     { src: "resources/IMG_4159.PNG", alt: "Digital artwork" },
     { src: "resources/IMG_001.PNG", alt: "Digital artwork" },
-    { src: "resources/IMG_2.PNG", alt: "Digital artwork" },
-    { src: "resources/IMG_3.PNG", alt: "Digital artwork" },
-    { src: "resources/IMG_5.PNG", alt: "Digital artwork" }
+    { src: "resources/IMG_2048.PNG", alt: "Digital artwork" },
+    { src: "resources/IMG_3196.PNG", alt: "Digital artwork" },
+    { src: "resources/IMG_5700.PNG", alt: "Digital artwork" }
     // { src: "resources/main_background.jpg", alt: "Main background image" },
     // { src: "resources/profile_ash.jpg", alt: "Profile picture", about: "Me!:D" }
 ];
