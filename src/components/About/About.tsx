@@ -65,11 +65,10 @@ className="mb-36"
 
     <p className="mb-2">&gt; Cheers</p>
     <p className="text-pink-200">
-      &gt; Booking/Consultation: 
-      <a href="mailto:sadgay007@gmail.com" className="underline hover:text-white">
-        sadgay007@gmail.com
-      </a>
-      / DM 
+      Booking/Consultation: 
+      <p><a href="mailto:sadgay007@gmail.com" className="underline hover:text-white">
+        sadgay007@gmail.com</a> </p>
+      <p>DM</p>
     </p>
   </div>
 
