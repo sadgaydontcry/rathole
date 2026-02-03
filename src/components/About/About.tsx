@@ -57,23 +57,19 @@ className="mb-36"
   
 
   <p className="text-center text-pink-200">---Cash Swish PayPal Bitcoin---</p>
-  <p className="text-center px-1">Deposit first Please</p>
+  <p className="text-left px-1">To confirm the booking, 500sek/50$/50€/50£ deposit is required, and it will be cut from the final. Also feel free to ask for updating/making changes of the tattoo design until you feel safe and happy ☺️</p>
 
-  <p className="text-center px-1 font-light">€50 kr500 $50 £50 ¥500</p>
+  
 
 </div>
 
-    <p className="mb-4">
-      &gt; As I am studying PhD in electronics, I only work on weekends, and/or discuss a suitable time with me plz...
-    </p>
-
     <p className="mb-2">&gt; Cheers</p>
     <p className="text-pink-200">
-      &gt; 复仇服务: 
+      &gt; Booking/Consultation: 
       <a href="mailto:sadgay007@gmail.com" className="underline hover:text-white">
         sadgay007@gmail.com
       </a>
-      / dm 
+      / DM 
     </p>
   </div>
 
