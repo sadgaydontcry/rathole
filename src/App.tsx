@@ -1,6 +1,19 @@
 import React, { useEffect, useState } from "react";
+import { Routes, Route } from "react-router-dom";
 import { Footer, About, Gallery, Header, Divider } from "./components";
 import AdminLogin from "./components/AdminLogin/AdminLogin";
+
+const Home: React.FC = () => (
+  <>
+    <Header />
+    <main className="mt-18">
+      <Divider />
+      <Gallery />
+      <About />
+    </main>
+    <Footer />
+  </>
+);
 
 const App: React.FC = () => {
   const [bgOpacity, setBgOpacity] = useState(0);
@@ -39,14 +52,10 @@ const App: React.FC = () => {
       ></div>
 
       <div className="relative z-10">
-        <Header />
-        <main className="mt-18">
-          <Divider />           {/* MOVED TO FIRST - This loads first now */}
-          <Gallery />           {/* Moved to second */}
-          <About />
-          <AdminLogin />
-        </main>
-        <Footer />
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/admin" element={<AdminLogin />} />
+        </Routes>
       </div>
     </div>
   );

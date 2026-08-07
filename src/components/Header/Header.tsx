@@ -43,19 +43,6 @@ const Header: React.FC = () => {
             Wishlists
           </Link>
         </div>
-        
-        <div>
-          <Link
-            to="admin_ash"
-            spy={true}
-            smooth={true}
-            offset={-70}
-            duration={500}
-            className="cursor-pointer block text-right py-2"
-          >
-            AdminLogin
-          </Link>
-        </div>
       </div>
     </header>
   );
